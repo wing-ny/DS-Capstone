@@ -1,5 +1,3 @@
-# spacex_dash_app.py
-
 # Import required libraries
 import pandas as pd
 import dash
@@ -104,4 +102,3 @@ def get_scatter_chart(entered_site, sliderRange):
 # Run the app
 if __name__ == '__main__':
     app.run_server()
-
