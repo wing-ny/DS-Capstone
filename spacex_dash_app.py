@@ -1,8 +1,8 @@
 # Import required libraries
 import pandas as pd
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 from dash.dependencies import Input, Output
 import plotly.express as px
 
@@ -101,4 +101,4 @@ def get_scatter_chart(entered_site, sliderRange):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server()
+    app.run()
